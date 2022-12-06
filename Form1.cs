@@ -21,10 +21,10 @@ namespace _06_12_2022_C_sharp_acad_line
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            void FilesRead(string filename) // TODO считывание из файл "»ћя.txt"
-            {
-                string something = File.ReadAllText(filename);
-            }
+            //void FilesRead(string filename) // TODO считывание из файл "»ћя.txt"
+            //{
+            //    string something = File.ReadAllText(filename);
+            //}
             //открываем диалог дл€ выбора файла
                        OpenFileDialog OPF = new OpenFileDialog();
             // путь по умолчанию
@@ -34,7 +34,7 @@ namespace _06_12_2022_C_sharp_acad_line
             {
                 MessageBox.Show(OPF.FileName, "‘айл считан");
                 filename_f= OPF.FileName;
-                Stream stream = OPF.OpenFile();
+               // Stream stream = OPF.OpenFile();
          // выводим файл в TextBox
                 textBox1.Text = File.ReadAllText(filename_f);
                 // разбиваем файл на подстроки, где в дальнейшем
@@ -48,12 +48,12 @@ namespace _06_12_2022_C_sharp_acad_line
         }
         private void button2_Click(object sender, EventArgs e)
         {
-           
-            var myList = File.ReadAllLines(filename_f);
-            foreach (var item in myList)
-            {
-                textBox2.Text = (item);
-            }
+
+            //List<string> myList = new List<string>();
+                
+            
+                textBox2.Text = File.ReadAllText(filename_f);
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
