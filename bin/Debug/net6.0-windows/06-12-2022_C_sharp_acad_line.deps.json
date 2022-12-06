@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "06-12-2022_C_sharp_acad_line/1.0.0": {
+        "runtime": {
+          "06-12-2022_C_sharp_acad_line.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "06-12-2022_C_sharp_acad_line/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

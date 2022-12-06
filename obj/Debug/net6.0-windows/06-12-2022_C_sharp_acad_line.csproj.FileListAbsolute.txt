@@ -1,0 +1,17 @@
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\bin\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.exe
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\bin\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.deps.json
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\bin\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.runtimeconfig.json
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\bin\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\bin\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.pdb
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.csproj.AssemblyReference.cache
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\_06_12_2022_C_sharp_acad_line.Form1.resources
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.csproj.GenerateResource.cache
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.AssemblyInfoInputs.cache
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.AssemblyInfo.cs
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.csproj.CoreCompileInputs.cache
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\refint\06-12-2022_C_sharp_acad_line.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.pdb
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\06-12-2022_C_sharp_acad_line.genruntimeconfig.cache
+C:\Users\Fishman.DB.CORP\Documents\GitHub\06-12-2022_C_sharp_acad_line\obj\Debug\net6.0-windows\ref\06-12-2022_C_sharp_acad_line.dll
