@@ -1,6 +1,9 @@
+using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
+using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace _06_12_2022_C_sharp_acad_line
@@ -9,6 +12,8 @@ namespace _06_12_2022_C_sharp_acad_line
     public partial class Form1 : Form
     {
         public string filename_f =null;
+
+
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +27,7 @@ namespace _06_12_2022_C_sharp_acad_line
             }
             //открываем диалог для выбора файла
                        OpenFileDialog OPF = new OpenFileDialog();
+            // путь по умолчанию
             OPF.InitialDirectory = @"C:\Users\Fishman.DB.CORP\Documents\GitHub
             \06-12-2022_C_sharp_acad_line\bin\Debug\net6.0-windows";
             if (OPF.ShowDialog() == DialogResult.OK)
@@ -29,14 +35,30 @@ namespace _06_12_2022_C_sharp_acad_line
                 MessageBox.Show(OPF.FileName, "Файл считан");
                 filename_f= OPF.FileName;
                 Stream stream = OPF.OpenFile();
-                //File.ReadAllText(filename_f, Encoding.GetEncoding("windows-1251"));
+         // выводим файл в TextBox
                 textBox1.Text = File.ReadAllText(filename_f);
+                // разбиваем файл на подстроки, где в дальнейшем
+                // будем искать ключи и значения для словарей
+                //  StreamReader sr = new StreamReader(stream);
             }
         }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
            
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+           
+            var myList = File.ReadAllLines(filename_f);
+            foreach (var item in myList)
+            {
+                textBox2.Text = (item);
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

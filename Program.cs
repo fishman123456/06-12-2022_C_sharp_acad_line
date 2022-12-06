@@ -32,7 +32,8 @@ namespace _06_12_2022_C_sharp_acad_line
             }
 
             //FilesWrite("1.lsp");
-           // FilesRead(filename);
+            // FilesRead(filename);
+           
             Application.Run(new Form1());
         }
     }
