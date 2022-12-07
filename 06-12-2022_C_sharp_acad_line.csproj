@@ -9,4 +9,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0-windows\Собираем РП_блоки_разбиты.txt" />
+  </ItemGroup>
+
 </Project>

@@ -50,10 +50,14 @@ namespace _06_12_2022_C_sharp_acad_line
         {
 
             //List<string> myList = new List<string>();
-                
+               if (filename_f!=null) {  
             
                 textBox2.Text = File.ReadAllText(filename_f);
-
+            }
+            else
+            {
+                MessageBox.Show("—читайте файл");
+            }
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
